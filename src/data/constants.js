@@ -1,5 +1,6 @@
 import Ptflo from '../images/ptflo2.gif'
 import Fnat from '../images/fnat.gif'
+import Sms from '../images/sms.gif'
 
 export const Bio = {
     name: "Khandavalli Saran Josh",
@@ -12,7 +13,7 @@ export const Bio = {
       "A dedicated Software Developer with expertise in UI design, app development, and data security. I'm passionate about enhancing user experiences and implementing innovative features. My journey in technology has been shaped by a combination of education, internships, and hands-on projects.",
     github: "https://github.com/Saranjosh",
     resume:
-      "https://drive.google.com/file/d/1oMbx4Boy1chyS-BBv0ulD6AVpONLjovg/view?usp=sharing",
+      "https://drive.google.com/file/d/1fBh0ZUlk-3Nm9in6PiTYwb4rR-nxrNqD/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/saran-josh-khandavalli-ba227220b/",
     twitter: "https://twitter.com/saran_jo",
     insta: "https://www.instagram.com/_saran.josh_____/",
@@ -81,6 +82,21 @@ export const Bio = {
           name: "Servlet",
           image:
             "https://javatutorial.net/wp-content/uploads/2016/06/servlet-featured-image.png",
+        },
+        {
+          name: "Spring",
+          image:
+            "https://www.svgrepo.com/show/354380/spring-icon.svg",
+        },
+        {
+          name: "Spring Boot",
+          image:
+            "https://image.pngaaa.com/546/2459546-middle.png",
+        },
+        {
+          name: "Mongo DB",
+          image:
+            "https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png",
         },
         {
           name: "MySQL",
@@ -237,6 +253,39 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Student Management System",
+      date: "Mar 2024 - Apr 2024",
+      description:
+        "Developed a comprehensive Student Management System using Spring Boot for backend operations and React for frontend interactions.",
+      image:
+        Sms,
+      tags: [
+        "Java",
+        "Spring Boot",
+        "React",
+        "MySQL",
+      ],
+      category: "web app",
+      github: "https://github.com/Saranjosh/StudentManagementSystem",
+    },
+    {
+      id: 1,
+      title: "Personal Portfolio",
+      date: "Jan 2024 - Feb 2024",
+      description:
+        "Personal Portfolio Website is a showcase of my skills, projects, and experiences, meticulously crafted using HTML, CSS, JavaScript, and React. The primary goal is to create a dynamic and interactive platform that not only provides a glimpse into my technical capabilities but also offers a pleasant and engaging user experience.",
+      image: Ptflo,
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React Js",
+      ],
+      category: "web app",
+      github: "https://github.com/Saranjosh/Portfolio",
+    },
+    {
+      id: 2,
       title: "Ecommerce Shopping Website : Fine-Art Cart",
       date: "Nov 2023 - Dec 2023",
       description:
@@ -255,22 +304,6 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/Saranjosh/FineArt",
-    },
-    {
-      id: 1,
-      title: "Personal Portfolio",
-      date: "Jan 2024 - Feb 2024",
-      description:
-        "Personal Portfolio Website is a showcase of my skills, projects, and experiences, meticulously crafted using HTML, CSS, JavaScript, and React. The primary goal is to create a dynamic and interactive platform that not only provides a glimpse into my technical capabilities but also offers a pleasant and engaging user experience.",
-      image: Ptflo,
-      tags: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React Js",
-      ],
-      category: "web app",
-      github: "https://github.com/Saranjosh/Portfolio",
     },
   ];
   
